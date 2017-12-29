@@ -5,80 +5,80 @@
     android:id="@+id/activity_reg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_optimizationLevel="all"
+    android:orientation="vertical"
     android:background="#000000"
     android:isScrollContainer="true"
-    android:orientation="vertical"
-    app:layout_optimizationLevel="all"
     tools:context=".Register">
 
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:gravity="center_horizontal"
         android:padding="3dp"
-        android:text="Create Account"
-        android:textColor="#ffffff"
+        android:gravity="center_horizontal"
         android:textColorLink="#ffffff"
         android:textSize="40sp"
         app:fontFamily="cursive"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:textColor="#ffffff"
+        android:text="Create Account"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:gravity="center_horizontal"
+        android:padding="6dp"
         android:orientation="vertical"
-        android:padding="6dp">
+        android:gravity="center_horizontal">
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter First Name"
             android:inputType="textPersonName"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter First Name"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Last Name"
             android:inputType="textPersonName"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Last Name"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Email"
             android:inputType="textEmailAddress"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Email"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Password"
             android:inputType="textPassword"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Password"/>
 
         <android.support.v7.widget.AppCompatSpinner
             android:layout_width="match_parent"
@@ -105,57 +105,57 @@
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Date Of Birth"
             android:inputType="date"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Date Of Birth"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Company Name"
             android:inputType="text"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Company Name"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Experience"
             android:inputType="number"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Experience"/>
 
         <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:hint="Enter Mobile Number"
             android:inputType="number"
-            android:textColor="#ffffff"
-            android:textColorHint="#ffffff"
+            android:fontFamily="sans-serif"
             android:textColorLink="#ffffff"
             android:textSize="24sp"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter Mobile Number"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
+            android:padding="6dp"
             android:orientation="horizontal"
-            android:padding="6dp">
+            android:gravity="center_horizontal">
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnregister"
@@ -163,9 +163,9 @@
                 android:layout_height="45dp"
                 android:layout_marginBottom="5dp"
                 android:background="@color/colorPrimaryDark"
-                android:text="Sign Up"
                 android:textSize="20sp"
-                tools:ignore="HardcodedText" />
+                tools:ignore="HardcodedText"
+                android:text="Sign Up"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

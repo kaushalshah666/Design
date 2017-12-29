@@ -7,15 +7,15 @@
         <item
             android:id="@+id/id_setting"
             android:title="Setting"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"/>
         <item
             android:id="@+id/id_edit"
             android:title="Edit Profile"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"/>
         <item
             android:id="@+id/id_sample"
             android:title="Sample"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"/>
 
     </group>
 
