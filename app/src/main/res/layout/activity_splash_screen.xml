@@ -4,34 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_optimizationLevel="all"
+    android:background="@drawable/gradient_splash"
     android:orientation="vertical"
-    android:background="#000000"
+    app:layout_optimizationLevel="all"
     tools:context=".SplashScreen">
 
-    <android.support.v7.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/default_gap"
-        android:layout_marginBottom="@dimen/default_gap"
-        app:srcCompat="@drawable/backlogin"/>
-
     <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
         android:id="@+id/progress"
-        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="55dp"/>
+        android:layout_marginBottom="55dp" />
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/progrssper"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/progress"
         android:layout_centerHorizontal="true"
-        android:textSize="50sp"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff"
+        android:textSize="50sp" />
 
 </RelativeLayout>

@@ -3,32 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:padding="16dp"
-    android:orientation="vertical"
-    android:gravity="bottom"
     android:background="@color/colorPrimaryDark"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:scaleType="centerCrop"
         android:contentDescription="@string/profile_image"
-        android:src="@drawable/ic_android_red_900_24dp"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_android_red_900_24dp" />
 
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="6dp"
+        android:text="Ghanta"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        tools:ignore="HardcodedText"
-        android:text="Ghanta"/>
+        tools:ignore="HardcodedText" />
 
     <android.support.v7.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="4dp"
-        tools:ignore="HardcodedText"
-        android:text="ghanto@gmail.com"/>
+        android:text="ghanto@gmail.com"
+        tools:ignore="HardcodedText" />
 
 </LinearLayout>
