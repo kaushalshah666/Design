@@ -11,12 +11,12 @@
     app:layout_optimizationLevel="all"
     tools:context=".MainActivity">
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:baselineAligned="false"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/droidsansmono"
         android:gravity="center"
         android:text="@string/app_name"
         android:textAllCaps="true"
@@ -32,30 +32,30 @@
         android:padding="10dp"
         tools:ignore="UselessParent">
 
-        <EditText
+        <android.support.v7.widget.AppCompatEditText
             android:id="@+id/edEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/Fabrica"
+            android:fontFamily="@font/droidsans"
             android:hint="Enter UserName"
             android:inputType="textEmailAddress"
             android:textColor="#ffffff"
             android:textColorHint="#ffffff"
             android:textColorLink="#ffffff"
-            android:textSize="24sp"
+            android:textSize="20sp"
             tools:ignore="HardcodedText,UnusedAttribute" />
 
-        <EditText
+        <android.support.v7.widget.AppCompatEditText
             android:id="@+id/edPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/droidsans"
             android:hint="Enter Password"
             android:inputType="textPassword"
             android:textColor="#ffffff"
             android:textColorHint="#ffffff"
             android:textColorLink="#ffffff"
-            android:textSize="24sp"
+            android:textSize="20sp"
             tools:ignore="HardcodedText" />
 
         <LinearLayout
@@ -63,13 +63,13 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
+            <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnlogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="#00B7C3"
-                android:fontFamily="sans-serif"
+                android:fontFamily="@font/droidserif_regular"
                 android:text="Login"
                 android:textColor="#ffffff"
                 android:textSize="20sp"
@@ -88,7 +88,7 @@
             android:id="@+id/tccreateac"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/android_insomnia_regular"
             android:text="Don't Have Account? Sign Up Now"
             android:textColor="#ffffff"
             android:textSize="19sp"
@@ -99,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/android_insomnia_regular"
             android:text="Forgot Password"
             android:textColor="#ffffff"
             android:textSize="19sp"
