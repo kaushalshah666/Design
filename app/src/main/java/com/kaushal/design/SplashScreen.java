@@ -2,8 +2,10 @@ package com.kaushal.design;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -48,5 +50,6 @@ public class SplashScreen extends AppCompatActivity {
                 }
             }
         }, 0, period);
+        progressBar.getProgressDrawable().setColorFilter(Color.MAGENTA, PorterDuff.Mode.SRC_IN);
     }
 }
